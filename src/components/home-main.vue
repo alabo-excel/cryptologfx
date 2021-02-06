@@ -21,13 +21,19 @@
         />
       </div>
     </div>
+
     <div>
       <div class="text-center m-14">
-        <h1 class="text-3xl font-extrabold">INVESTMENT <span class="text-blue-600">BENEFITS</span></h1>
-        <p class="h-1 bg-blue-600"></p>
+        <p class="h-1 bg-blue-300 mx-auto w-5/12 rounded-lg"></p>
+        <h1
+          class="text-3xl font-extrabold -mt-5 bg-white w-96 mx-auto text-blue-900"
+        >
+          INVESTMENT <span class="text-blue-500">BENEFITS</span>
+        </h1>
       </div>
+
       <div class="flex justify-center text-center">
-        <div class="shadow-xl w-1/6	p-4 m-3 py-6">
+        <div class="shadow-xl w-1/6	p-4 m-3 py-6 rounded-md">
           <img class="mx-auto w-7" src="../assets/secure.svg" alt="" />
           <div>
             <p class="py-4 font-extrabold text-lg	">Fund Security</p>
@@ -38,7 +44,7 @@
           </div>
         </div>
 
-        <div class="shadow-xl w-1/6	p-4 m-3 py-6">
+        <div class="shadow-xl w-1/6	p-4 m-3 py-6 rounded-md">
           <img class="mx-auto w-11" src="../assets/profit.svg" alt="" />
           <div>
             <p class="py-4 font-extrabold text-lg	">Daily Profit</p>
@@ -49,7 +55,7 @@
           </div>
         </div>
 
-        <div class="shadow-xl w-1/6	p-4 m-3 py-6">
+        <div class="shadow-xl w-1/6	p-4 m-3 py-6 rounded-md">
           <img class="mx-auto w-12" src="../assets/withdrawal.svg" alt="" />
           <div>
             <p class="py-4 font-extrabold text-lg	">Fast Withdrawal</p>
@@ -59,7 +65,7 @@
           </div>
         </div>
 
-        <div class="shadow-xl w-1/6	p-4 m-3 py-6">
+        <div class="shadow-xl w-1/6	p-4 m-3 py-6 rounded-md">
           <img class="mx-auto w-11" src="../assets/support.svg" alt="" />
           <div>
             <p class="py-4 font-extrabold text-lg	">24/7 Support</p>
@@ -67,6 +73,188 @@
               Our experienced support team is always online to attend to your
               queries.
             </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <div class="text-left mt-20 mb-5 ml-44">
+        <p class="h-1 bg-blue-300 w-20 ml-5 rounded-lg"></p>
+        <h1
+          class="text-3xl font-extrabold -mt-5 bg-white w-60 pl-3 ml-9 text-blue-900"
+        >
+          ABOUT <span class="text-blue-500">US</span>
+        </h1>
+      </div>
+    </div>
+
+    <div class="flex justify-center">
+      <div class="w-5/12">
+        <div>
+          <p class="pl-7 pr-32 font-normal text-sm leading-6">
+            We are a team of early bitcoin adoptors and trading experts who have
+            introduced the power of leveraged income to millennials using A.I
+            tools in cryptocurrency trading and tech to over 500,000 people. Our
+            team have been trading cryptocurrency for companies and other top
+            cryptocurrency enthusiasts accross continents. Our trading
+            methodology and strategy have proven to be the best in the entire
+            industry, For this puropose, we came together to build a platform
+            where everyone can be able to benefit immensely from our proven
+            strategy. To begin, you only have to create an account, deposit and
+            choose an investment plan that best suites your finances.
+          </p>
+        </div>
+      </div>
+      <div>
+        <img class="w-11/12	" src="../assets/about.svg" alt="" />
+      </div>
+    </div>
+
+    <div>
+      <div class="text-center m-14 mt-28">
+        <p class="h-1 bg-blue-300 mx-auto w-5/12 rounded-lg"></p>
+        <h1
+          class="text-3xl font-extrabold -mt-5 bg-white w-96 mx-auto text-blue-900"
+        >
+          INVESTMENT <span class="text-blue-500">PLANS</span>
+        </h1>
+      </div>
+
+      <div class="flex justify-center text-center">
+        <div
+          class="shadow-xl w-1/6	p-4 m-3 py-6 rounded-md border-t-8 border-blue-600"
+        >
+          <div>
+            <p class="font-extrabold text-lg	">BASIC</p>
+            <p class="text-sm py-6 font-extrabold">$50 - $250</p>
+            <p class="text-sm font-extrabold">
+              Profit: <span class="font-normal">25%</span>
+            </p>
+            <p class="text-sm font-extrabold">
+              Duration: <span class="font-normal">2 Days</span>
+            </p>
+          </div>
+          <input
+            type="button"
+            value="JOIN NOW"
+            class="p-2 pl-5 pr-5 my-4 text-sm bg-blue-600 text-white rounded-md"
+          />
+        </div>
+
+        <div
+          class="shadow-xl w-1/6	p-4 m-3 py-6 rounded-md border-t-8 border-blue-600"
+        >
+          <div>
+            <p class="font-extrabold text-lg	">ADVANCED</p>
+            <p class="text-sm py-6 font-extrabold">$251 - $550</p>
+            <p class="text-sm font-extrabold">
+              Profit: <span class="font-normal">35%</span>
+            </p>
+            <p class="text-sm font-extrabold">
+              Duration: <span class="font-normal">2 Days</span>
+            </p>
+          </div>
+          <input
+            type="button"
+            value="JOIN NOW"
+            class="p-2 pl-5 pr-5 my-4 text-sm bg-blue-600 text-white rounded-md"
+          />
+        </div>
+
+        <div
+          class="shadow-xl w-1/6	p-4 m-3 py-6 rounded-md border-t-8 border-blue-600"
+        >
+          <div>
+            <p class="font-extrabold text-lg	">PRO</p>
+            <p class="text-sm py-6 font-extrabold">$551 - $2,550</p>
+            <p class="text-sm font-extrabold">
+              Profit: <span class="font-normal">50%</span>
+            </p>
+            <p class="text-sm font-extrabold">
+              Duration: <span class="font-normal">7 Days</span>
+            </p>
+          </div>
+          <input
+            type="button"
+            value="JOIN NOW"
+            class="p-2 pl-5 pr-5 my-4 text-sm bg-blue-600 text-white rounded-md"
+          />
+        </div>
+
+        <div
+          class="shadow-xl w-1/6	p-4 m-3 py-6 rounded-md border-t-8 border-blue-600"
+        >
+          <div>
+            <p class="font-extrabold text-lg	">CAPITALIST</p>
+            <p class="text-sm py-6 font-extrabold">$2,551 - $5,550</p>
+            <p class="text-sm font-extrabold">
+              Profit: <span class="font-normal">65%</span>
+            </p>
+            <p class="text-sm font-extrabold">
+              Duration: <span class="font-normal">7 Days</span>
+            </p>
+          </div>
+          <input
+            type="button"
+            value="JOIN NOW"
+            class="p-2 pl-5 pr-5 my-4 text-sm bg-blue-600 text-white rounded-md"
+          />
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <div class="text-center m-20 mb-6">
+        <p class="h-1 bg-blue-300 mx-auto w-4/12 rounded-lg"></p>
+        <h1
+          class="text-3xl font-extrabold -mt-5 bg-white w-80 mx-auto text-blue-900"
+        >
+          PAYMENT <span class="text-blue-500">METHODS</span>
+        </h1>
+      </div>
+
+      <div class="flex justify-center">
+        <div class="bg-blue-300 border-4 m-4 border-blue-600 rounded-xl p-3">
+          <img class="w-56" src="../assets/bitcoin.png" alt="" />
+        </div>
+        <div class="bg-blue-300 border-4 m-4 border-blue-600 rounded-xl p-3">
+          <img class="w-56" src="../assets/ethereun.png" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <div class="text-center m-20 mb-6">
+        <p class="h-1 bg-blue-300 mx-auto w-5/12 rounded-lg"></p>
+        <h1
+          class="text-3xl font-extrabold -mt-5 bg-white w-96 mx-auto text-blue-900"
+        >
+          INVESTMENT <span class="text-blue-500">PROCESS</span>
+        </h1>
+      </div>
+
+      <div class="flex justify-center">
+        <div>
+          <div class=" w-2/6 p-2 m-3 py-6 rounded-md ">
+          <div class="flex">
+            <p class="bg-blue-500 p-2 text-white text-sm h-8 mt-6 rounded-md pl-6 pr-36">SIGN UP</p>
+            <h1
+              class="p-4 border-4 w-20 relative ml-auto mb-12 right-24 border-blue-600 rounded-full text-white text-3xl font-extrabold bg-blue-300"
+            >
+              01.
+            </h1>
+          </div>
+            
+            <div class="text-right">
+              <p class="font-extrabold text-sm text-blue-900 px-4">
+                Signup with a valid Email.
+              </p>
+              <p class="text-sm">
+                This it the first step to take. Sign up with a valid e mail and
+                login to your dashboard.
+              </p>
+            </div>
           </div>
         </div>
       </div>
@@ -80,7 +268,7 @@ export default {};
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-.hero{
+.hero {
   height: 80vh;
   width: 100%;
 }
