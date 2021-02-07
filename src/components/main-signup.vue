@@ -41,8 +41,8 @@
         />
       </div>
       <div class="flex ml-2 m-6">
-          <input type="checkbox" class="p-4 mr-12">
-          <p>I want to receive CryptoLogFX Newsletters with best deals and offers</p>
+          <input type="checkbox" class="p-4 mr-6 w-6 h-6">
+          <p class="pt-1">I want to receive CryptoLogFX Newsletters with best deals and offers</p>
       </div>
       <div>
         <input
