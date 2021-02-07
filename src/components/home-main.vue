@@ -235,25 +235,176 @@
       </div>
 
       <div class="flex justify-center">
-        <div>
-          <div class=" w-2/6 p-2 m-3 py-6 rounded-md ">
-          <div class="flex">
-            <p class="bg-blue-500 p-2 text-white text-sm h-8 mt-6 rounded-md pl-6 pr-36">SIGN UP</p>
-            <h1
-              class="p-4 border-4 w-20 relative ml-auto mb-12 right-24 border-blue-600 rounded-full text-white text-3xl font-extrabold bg-blue-300"
-            >
-              01.
-            </h1>
-          </div>
-            
+        <div class="flex justify-center">
+          <div class=" w-60 p-8 rounded-md ">
+            <div class="flex">
+              <p
+                class="bg-blue-500 p-2 text-white text-sm h-8 mt-6 rounded-md pl-6 pr-48"
+              >
+                SIGN UP
+              </p>
+              <h1
+                class="p-4 border-4 w-20 relative -ml-10 mb-12 right-24 border-blue-600 rounded-full text-white text-3xl font-extrabold bg-blue-300"
+              >
+                01.
+              </h1>
+            </div>
+
             <div class="text-right">
-              <p class="font-extrabold text-sm text-blue-900 px-4">
+              <p class="font-extrabold text-sm text-blue-900 pl-8">
                 Signup with a valid Email.
               </p>
               <p class="text-sm">
                 This it the first step to take. Sign up with a valid e mail and
                 login to your dashboard.
               </p>
+            </div>
+          </div>
+
+          <div class=" w-60 p-8 rounded-md ">
+            <div class="flex">
+              <p
+                class="bg-blue-500 p-2 text-white text-sm h-8 mt-6 rounded-md pl-6 pr-44"
+              >
+                DEPOSIT FUNDS
+              </p>
+              <h1
+                class="p-4 border-4 w-20 relative -ml-14 mb-12 right-24 border-blue-600 rounded-full text-white text-3xl font-extrabold bg-blue-300"
+              >
+                02.
+              </h1>
+            </div>
+
+            <div class="text-right">
+              <p class="font-extrabold text-sm text-blue-900 pl-8">
+                Deposit Fund in your Wallet
+              </p>
+              <p class="text-sm">
+                Deposit funds to your Wallet to enable you join an investment
+                plan.
+              </p>
+            </div>
+          </div>
+
+          <div class=" w-60 p-8 rounded-md ">
+            <div class="flex">
+              <p
+                class="bg-blue-500 p-2 text-white text-sm h-8 mt-6 rounded-md pl-6 pr-44"
+              >
+                INVEST
+              </p>
+              <h1
+                class="p-4 border-4 w-20 relative -ml-14 mb-12 right-24 border-blue-600 rounded-full text-white text-3xl font-extrabold bg-blue-300"
+              >
+                03.
+              </h1>
+            </div>
+
+            <div class="text-right">
+              <p class="font-extrabold text-sm text-blue-900 pl-8">
+                Pick and Join an Investment Plan.
+              </p>
+              <p class="text-sm">
+                Choose an investment plan that best suites your cash flow and
+                finances.
+              </p>
+            </div>
+          </div>
+
+          <div class=" w-60 p-8 rounded-md ">
+            <div class="flex">
+              <p
+                class="bg-blue-500 p-2 text-white text-sm h-8 mt-6 rounded-md pl-6 pr-28"
+              >
+                WITHDRAW FUNDS
+              </p>
+              <h1
+                class="p-4 border-4 w-20 relative ml-auto mb-12 right-24 border-blue-600 rounded-full text-white text-3xl font-extrabold bg-blue-300"
+              >
+                04.
+              </h1>
+            </div>
+
+            <div class="text-right">
+              <p class="font-extrabold text-sm text-blue-900 pl-8">
+                Withdraw Your funds and profit.
+              </p>
+              <p class="text-sm">
+                Withdraw your capital and profits at the end of the duration of
+                your chosen plan.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <div>
+        <div class="text-center m-20 mb-6">
+          <p class="h-1 bg-blue-300 mx-auto w-6/12 rounded-lg"></p>
+          <h1
+            class="text-3xl font-extrabold -mt-5 bg-white w-5/12 mx-auto text-blue-500"
+          >
+            REVIEWS <span class="text-blue-900">FROM OUR INVESTORS</span>
+          </h1>
+
+          <div class="flex justify-center mt-28">
+            <div
+              class="bg-blue-900 m-3 text-white text-center text-sm w-1/5 p-5 rounded-md "
+            >
+              <div class="bg-white -mt-20 w-32 mx-auto rounded-full h-32 pt-2">
+                <img
+                  class="w-28 mx-auto"
+                  src="../assets/Ellipse 2.png"
+                  alt=""
+                />
+              </div>
+              <h3 class="text-left text-blue-400 text-lg ml-2 -mb-4">"</h3>
+              <p class="px-2">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in
+                vitae elementum et. Odio urna ultrices feugiat mauris volutpat.
+                Proin sodales nisl sagittis ultricies
+              </p>
+              <p class="text-blue-400 p-3 text-xs">Karl K.</p>
+            </div>
+
+            <div
+              class="bg-blue-900 m-3 text-white text-center text-sm w-1/5 p-5 rounded-md "
+            >
+              <div class="bg-white -mt-20 w-32 mx-auto rounded-full h-32 pt-2">
+                <img
+                  class="w-28 mx-auto"
+                  src="../assets/Ellipse 2-1.png"
+                  alt=""
+                />
+              </div>
+              <h3 class="text-left text-blue-400 text-lg ml-2 -mb-4">"</h3>
+              <p class="px-2">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in
+                vitae elementum et. Odio urna ultrices feugiat mauris volutpat.
+                Proin sodales nisl sagittis ultricies
+              </p>
+              <p class="text-blue-400 p-3 text-xs">Alessia S.</p>
+            </div>
+
+            <div
+              class="bg-blue-900 m-3 text-white text-center text-sm w-1/5 p-5 rounded-md "
+            >
+              <div class="bg-white -mt-20 w-32 mx-auto rounded-full h-32 pt-2">
+                <img
+                  class="w-28 mx-auto"
+                  src="../assets/Ellipse 2-2.png"
+                  alt=""
+                />
+              </div>
+              <h3 class="text-left text-blue-400 text-lg ml-2 -mb-4">"</h3>
+              <p class="px-2">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in
+                vitae elementum et. Odio urna ultrices feugiat mauris volutpat.
+                Proin sodales nisl sagittis ultricies
+              </p>
+              <p class="text-blue-400 p-3 text-xs">Lu W. </p>
             </div>
           </div>
         </div>

@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.l-blue {
+    background-color: #0073FB;
+}
+
+.d-blue {
+    background-color: #170D72;
+    ;
+}
