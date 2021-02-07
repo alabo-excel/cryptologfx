@@ -3,6 +3,7 @@
     <MainNav />
     <MainHome />
     <MainFooter />
+    <LastFooter />
   </div>
 </template>
 
@@ -10,7 +11,8 @@
 // @ is an alias to /src
 import MainNav from '@/components/main-nav.vue'
 import MainHome from '@/components/home-main.vue'
-import MainFooter from '@/components/footer-main.vue'
+import MainFooter from '@/components/main-footer.vue'
+import LastFooter from '@/components/last-footer.vue'
 
 
 export default {
@@ -18,7 +20,8 @@ export default {
   components: {
     MainNav,
     MainHome,
-    MainFooter
+    MainFooter,
+    LastFooter
   }
 }
 </script>

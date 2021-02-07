@@ -3,11 +3,11 @@
     <div>
       <img class="hero" src="../assets/landing img.png" alt="" />
     </div>
-    <div class="over absolute opacity-50 bg-blue-900 w-full h-4/5"></div>
+    <div class="over absolute opacity-75 bg-d-blue w-full h-4/5"></div>
     <div class="absolute top-0">
       <div class="ml-32 pl-5">
         <h1 class="text-6xl text-white font-black mt-52">
-          Secured <span class="text-blue-700">Investment</span> <br />
+          Secured <span class="tl-blue">Investment</span> <br />
           Platform.
         </h1>
         <p class="py-4 w-5/12 pr-5 text-white text-base">
@@ -15,7 +15,7 @@
           you. Your ROI is our top priority, Invest now.
         </p>
         <input
-          class="p-4 rounded-lg pl-5 pr-5 bg-blue-600 text-white text-sm"
+          class="p-3 rounded-lg w-32 my-3 bg-l-blue text-white text-xs"
           type="button"
           value="GET STARTED"
         />
@@ -23,12 +23,12 @@
     </div>
 
     <div>
-      <div class="text-center m-14">
-        <p class="h-1 bg-blue-300 mx-auto w-5/12 rounded-lg"></p>
+      <div class="text-center m-20">
+        <p class="h-1 bg-l-blue mx-auto w-4/12 rounded-lg"></p>
         <h1
-          class="text-3xl font-extrabold -mt-5 bg-white w-96 mx-auto text-blue-900"
+          class="text-2xl font-extrabold -mt-5 bg-white w-80 mx-auto td-blue"
         >
-          INVESTMENT <span class="text-blue-500">BENEFITS</span>
+          INVESTMENT <span class="tl-blue">BENEFITS</span>
         </h1>
       </div>
 
@@ -80,11 +80,11 @@
 
     <div>
       <div class="text-left mt-20 mb-5 ml-44">
-        <p class="h-1 bg-blue-300 w-20 ml-5 rounded-lg"></p>
+        <p class="h-1 bg-l-blue w-20 ml-5 rounded-lg"></p>
         <h1
-          class="text-3xl font-extrabold -mt-5 bg-white w-60 pl-3 ml-9 text-blue-900"
+          class="text-2xl font-extrabold -mt-5 bg-white w-60 pl-3 ml-9 tl-blue"
         >
-          ABOUT <span class="text-blue-500">US</span>
+          ABOUT <span class="td-blue">US</span>
         </h1>
       </div>
     </div>
@@ -112,18 +112,18 @@
     </div>
 
     <div>
-      <div class="text-center m-14 mt-28">
-        <p class="h-1 bg-blue-300 mx-auto w-5/12 rounded-lg"></p>
+      <div class="text-center m-14 mt-32">
+        <p class="h-1 bg-l-blue mx-auto w-4/12 rounded-lg"></p>
         <h1
-          class="text-3xl font-extrabold -mt-5 bg-white w-96 mx-auto text-blue-900"
+          class="text-2xl font-extrabold -mt-5 bg-white w-80 mx-auto td-blue"
         >
-          INVESTMENT <span class="text-blue-500">PLANS</span>
+          INVESTMENT <span class="tl-blue">PLANS</span>
         </h1>
       </div>
 
       <div class="flex justify-center text-center">
         <div
-          class="shadow-xl w-1/6	p-4 m-3 py-6 rounded-md border-t-8 border-blue-600"
+          class="shadow-xl w-1/6	p-4 m-3 py-6 rounded-md border-t-8 border-blue"
         >
           <div>
             <p class="font-extrabold text-lg	">BASIC</p>
@@ -138,12 +138,12 @@
           <input
             type="button"
             value="JOIN NOW"
-            class="p-2 pl-5 pr-5 my-4 text-sm bg-blue-600 text-white rounded-md"
+            class="p-2 pl-5 pr-5 my-4 text-sm bg-l-blue text-white rounded-md"
           />
         </div>
 
         <div
-          class="shadow-xl w-1/6	p-4 m-3 py-6 rounded-md border-t-8 border-blue-600"
+          class="shadow-xl w-1/6	p-4 m-3 py-6 rounded-md border-t-8 border-blue"
         >
           <div>
             <p class="font-extrabold text-lg	">ADVANCED</p>
@@ -158,12 +158,12 @@
           <input
             type="button"
             value="JOIN NOW"
-            class="p-2 pl-5 pr-5 my-4 text-sm bg-blue-600 text-white rounded-md"
+            class="p-2 pl-5 pr-5 my-4 text-sm bg-l-blue text-white rounded-md"
           />
         </div>
 
         <div
-          class="shadow-xl w-1/6	p-4 m-3 py-6 rounded-md border-t-8 border-blue-600"
+          class="shadow-xl w-1/6	p-4 m-3 py-6 rounded-md border-t-8 border-blue"
         >
           <div>
             <p class="font-extrabold text-lg	">PRO</p>
@@ -178,12 +178,12 @@
           <input
             type="button"
             value="JOIN NOW"
-            class="p-2 pl-5 pr-5 my-4 text-sm bg-blue-600 text-white rounded-md"
+            class="p-2 pl-5 pr-5 my-4 text-sm bg-l-blue text-white rounded-md"
           />
         </div>
 
         <div
-          class="shadow-xl w-1/6	p-4 m-3 py-6 rounded-md border-t-8 border-blue-600"
+          class="shadow-xl w-1/6	p-4 m-3 py-6 rounded-md border-t-8 border-blue"
         >
           <div>
             <p class="font-extrabold text-lg	">CAPITALIST</p>
@@ -198,8 +198,28 @@
           <input
             type="button"
             value="JOIN NOW"
-            class="p-2 pl-5 pr-5 my-4 text-sm bg-blue-600 text-white rounded-md"
+            class="p-2 pl-5 pr-5 my-4 text-sm bg-l-blue text-white rounded-md"
           />
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <div class="text-center m-28 mb-6">
+        <p class="h-1 bg-blue-300 mx-auto w-4/12 rounded-lg"></p>
+        <h1
+          class="text-2xl font-extrabold -mt-5 bg-white w-80 mx-auto tl-blue"
+        >
+          PAYMENT <span class="td-blue">METHODS</span>
+        </h1>
+      </div>
+
+      <div class="flex justify-center">
+        <div class="bg-blue-300 border-4 m-4 border-blue rounded-xl p-3">
+          <img class="w-56" src="../assets/bitcoin.png" alt="" />
+        </div>
+        <div class="bg-blue-300 border-4 m-4 border-blue rounded-xl p-3">
+          <img class="w-56" src="../assets/ethereun.png" alt="" />
         </div>
       </div>
     </div>
@@ -208,29 +228,9 @@
       <div class="text-center m-20 mb-6">
         <p class="h-1 bg-blue-300 mx-auto w-4/12 rounded-lg"></p>
         <h1
-          class="text-3xl font-extrabold -mt-5 bg-white w-80 mx-auto text-blue-900"
+          class="text-2xl font-extrabold -mt-5 bg-white w-80 mx-auto td-blue"
         >
-          PAYMENT <span class="text-blue-500">METHODS</span>
-        </h1>
-      </div>
-
-      <div class="flex justify-center">
-        <div class="bg-blue-300 border-4 m-4 border-blue-600 rounded-xl p-3">
-          <img class="w-56" src="../assets/bitcoin.png" alt="" />
-        </div>
-        <div class="bg-blue-300 border-4 m-4 border-blue-600 rounded-xl p-3">
-          <img class="w-56" src="../assets/ethereun.png" alt="" />
-        </div>
-      </div>
-    </div>
-
-    <div>
-      <div class="text-center m-20 mb-6">
-        <p class="h-1 bg-blue-300 mx-auto w-5/12 rounded-lg"></p>
-        <h1
-          class="text-3xl font-extrabold -mt-5 bg-white w-96 mx-auto text-blue-900"
-        >
-          INVESTMENT <span class="text-blue-500">PROCESS</span>
+          INVESTMENT <span class="tl-blue">PROCESS</span>
         </h1>
       </div>
 
@@ -239,19 +239,19 @@
           <div class=" w-60 p-8 rounded-md ">
             <div class="flex">
               <p
-                class="bg-blue-500 p-2 text-white text-sm h-8 mt-6 rounded-md pl-6 pr-48"
+                class="bg-l-blue p-2 text-white text-sm h-8 mt-6 rounded-md pl-6 pr-48"
               >
                 SIGN UP
               </p>
               <h1
-                class="p-4 border-4 w-20 relative -ml-10 mb-12 right-24 border-blue-600 rounded-full text-white text-3xl font-extrabold bg-blue-300"
+                class="p-4 border-4 w-20 relative -ml-10 mb-12 right-24 border-blue rounded-full text-white text-3xl font-extrabold bg-blue-300"
               >
                 01.
               </h1>
             </div>
 
             <div class="text-right">
-              <p class="font-extrabold text-sm text-blue-900 pl-8">
+              <p class="font-extrabold text-sm td-blue pl-8">
                 Signup with a valid Email.
               </p>
               <p class="text-sm">
@@ -264,19 +264,19 @@
           <div class=" w-60 p-8 rounded-md ">
             <div class="flex">
               <p
-                class="bg-blue-500 p-2 text-white text-sm h-8 mt-6 rounded-md pl-6 pr-44"
+                class="bg-l-blue p-2 text-white text-sm h-8 mt-6 rounded-md pl-6 pr-44"
               >
                 DEPOSIT FUNDS
               </p>
               <h1
-                class="p-4 border-4 w-20 relative -ml-14 mb-12 right-24 border-blue-600 rounded-full text-white text-3xl font-extrabold bg-blue-300"
+                class="p-4 border-4 w-20 relative -ml-14 mb-12 right-24 border-blue rounded-full text-white text-3xl font-extrabold bg-blue-300"
               >
                 02.
               </h1>
             </div>
 
             <div class="text-right">
-              <p class="font-extrabold text-sm text-blue-900 pl-8">
+              <p class="font-extrabold text-sm td-blue pl-8">
                 Deposit Fund in your Wallet
               </p>
               <p class="text-sm">
@@ -289,19 +289,19 @@
           <div class=" w-60 p-8 rounded-md ">
             <div class="flex">
               <p
-                class="bg-blue-500 p-2 text-white text-sm h-8 mt-6 rounded-md pl-6 pr-44"
+                class="bg-l-blue p-2 text-white text-sm h-8 mt-6 rounded-md pl-6 pr-44"
               >
                 INVEST
               </p>
               <h1
-                class="p-4 border-4 w-20 relative -ml-14 mb-12 right-24 border-blue-600 rounded-full text-white text-3xl font-extrabold bg-blue-300"
+                class="p-4 border-4 w-20 relative -ml-14 mb-12 right-24 border-blue rounded-full text-white text-3xl font-extrabold bg-blue-300"
               >
                 03.
               </h1>
             </div>
 
             <div class="text-right">
-              <p class="font-extrabold text-sm text-blue-900 pl-8">
+              <p class="font-extrabold text-sm td-blue pl-8">
                 Pick and Join an Investment Plan.
               </p>
               <p class="text-sm">
@@ -314,19 +314,19 @@
           <div class=" w-60 p-8 rounded-md ">
             <div class="flex">
               <p
-                class="bg-blue-500 p-2 text-white text-sm h-8 mt-6 rounded-md pl-6 pr-28"
+                class="bg-l-blue p-2 text-white text-sm h-8 mt-6 rounded-md pl-6 pr-28"
               >
                 WITHDRAW FUNDS
               </p>
               <h1
-                class="p-4 border-4 w-20 relative ml-auto mb-12 right-24 border-blue-600 rounded-full text-white text-3xl font-extrabold bg-blue-300"
+                class="p-4 border-4 w-20 relative ml-auto mb-12 right-24 border-blue rounded-full text-white text-3xl font-extrabold bg-blue-300"
               >
                 04.
               </h1>
             </div>
 
             <div class="text-right">
-              <p class="font-extrabold text-sm text-blue-900 pl-8">
+              <p class="font-extrabold text-sm td-blue pl-8">
                 Withdraw Your funds and profit.
               </p>
               <p class="text-sm">
@@ -342,16 +342,16 @@
     <div>
       <div>
         <div class="text-center m-20 mb-6">
-          <p class="h-1 bg-blue-300 mx-auto w-6/12 rounded-lg"></p>
+          <p class="h-1 bg-blue-300 mx-auto w-5/12 rounded-lg"></p>
           <h1
-            class="text-3xl font-extrabold -mt-5 bg-white w-5/12 mx-auto text-blue-500"
+            class="text-2xl font-extrabold -mt-5 bg-white w-4/12 mx-auto text-blue-500"
           >
             REVIEWS <span class="text-blue-900">FROM OUR INVESTORS</span>
           </h1>
 
           <div class="flex justify-center mt-28">
             <div
-              class="bg-blue-900 m-3 text-white text-center text-sm w-1/5 p-5 rounded-md "
+              class="bg-d-blue m-3 text-white text-center text-sm w-1/5 p-5 rounded-md "
             >
               <div class="bg-white -mt-20 w-32 mx-auto rounded-full h-32 pt-2">
                 <img
@@ -360,17 +360,17 @@
                   alt=""
                 />
               </div>
-              <h3 class="text-left text-blue-400 text-lg ml-2 -mb-4">"</h3>
+              <h3 class="text-left tl-blue text-lg ml-2 -mb-4">"</h3>
               <p class="px-2">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in
                 vitae elementum et. Odio urna ultrices feugiat mauris volutpat.
                 Proin sodales nisl sagittis ultricies
               </p>
-              <p class="text-blue-400 p-3 text-xs">Karl K.</p>
+              <p class="tl-blue p-3 text-xs">Karl K.</p>
             </div>
 
             <div
-              class="bg-blue-900 m-3 text-white text-center text-sm w-1/5 p-5 rounded-md "
+              class="bg-d-blue m-3 text-white text-center text-sm w-1/5 p-5 rounded-md "
             >
               <div class="bg-white -mt-20 w-32 mx-auto rounded-full h-32 pt-2">
                 <img
@@ -379,17 +379,17 @@
                   alt=""
                 />
               </div>
-              <h3 class="text-left text-blue-400 text-lg ml-2 -mb-4">"</h3>
+              <h3 class="text-left tl-blue text-lg ml-2 -mb-4">"</h3>
               <p class="px-2">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in
                 vitae elementum et. Odio urna ultrices feugiat mauris volutpat.
                 Proin sodales nisl sagittis ultricies
               </p>
-              <p class="text-blue-400 p-3 text-xs">Alessia S.</p>
+              <p class="tl-blue p-3 text-xs">Alessia S.</p>
             </div>
 
             <div
-              class="bg-blue-900 m-3 text-white text-center text-sm w-1/5 p-5 rounded-md "
+              class="bg-d-blue m-3 text-white text-center text-sm w-1/5 p-5 rounded-md "
             >
               <div class="bg-white -mt-20 w-32 mx-auto rounded-full h-32 pt-2">
                 <img
@@ -398,13 +398,13 @@
                   alt=""
                 />
               </div>
-              <h3 class="text-left text-blue-400 text-lg ml-2 -mb-4">"</h3>
+              <h3 class="text-left tl-blue text-lg ml-2 -mb-4">"</h3>
               <p class="px-2">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in
                 vitae elementum et. Odio urna ultrices feugiat mauris volutpat.
                 Proin sodales nisl sagittis ultricies
               </p>
-              <p class="text-blue-400 p-3 text-xs">Lu W. </p>
+              <p class="tl-blue p-3 text-xs">Lu W. </p>
             </div>
           </div>
         </div>

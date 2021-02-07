@@ -1,11 +1,27 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-.l-blue {
+.bg-l-blue {
     background-color: #0073FB;
 }
 
-.d-blue {
+.bg-d-blue {
     background-color: #170D72;
+}
+
+.tl-blue {
+    color: #0073FB;
+}
+
+.td-blue {
+    color: #170D72;
     ;
+}
+
+.border-blue {
+    border-color: #0073FB;
+}
+
+.w-big {
+    width: 98%;
 }
