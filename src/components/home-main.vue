@@ -3,14 +3,14 @@
     <div>
       <img class="hero" src="../assets/landing img.png" alt="" />
     </div>
-    <div class="over absolute opacity-75 bg-d-blue w-full h-4/5"></div>
+    <div class="over top-0 absolute opacity-75 bg-d-blue w-full h-4/5"></div>
     <div class="absolute top-0">
-      <div class="ml-32 pl-5">
-        <h1 class="text-6xl text-white font-black mt-52">
+      <div class="lg:ml-32 pl-5">
+        <h1 class="lg:text-6xl text-3xl text-white font-black lg:mt-52 mt-20">
           Secured <span class="tl-blue">Investment</span> <br />
           Platform.
         </h1>
-        <p class="py-4 w-5/12 pr-5 text-white text-base">
+        <p class="py-4 lg:w-5/12 pr-5 text-white text-base">
           We manage your Bitcoin investment, trade to make better profits for
           you. Your ROI is our top priority, Invest now.
         </p>
@@ -26,14 +26,14 @@
       <div class="text-center m-20">
         <p class="h-1 bg-l-blue mx-auto w-4/12 rounded-lg"></p>
         <h1
-          class="text-2xl font-extrabold -mt-5 bg-white w-80 mx-auto td-blue"
+          class="text-2xl font-extrabold -mt-5 bg-white lg:w-80 mx-auto td-blue"
         >
           INVESTMENT <span class="tl-blue">BENEFITS</span>
         </h1>
       </div>
 
-      <div class="flex justify-center text-center">
-        <div class="shadow-xl w-1/6	p-4 m-3 py-6 rounded-md">
+      <div class="lg:flex justify-center text-center">
+        <div class="shadow-xl lg:w-1/6	p-4 m-3 py-6 rounded-md">
           <img class="mx-auto w-7" src="../assets/secure.svg" alt="" />
           <div>
             <p class="py-4 font-extrabold text-lg	">Fund Security</p>
@@ -44,7 +44,7 @@
           </div>
         </div>
 
-        <div class="shadow-xl w-1/6	p-4 m-3 py-6 rounded-md">
+        <div class="shadow-xl lg:w-1/6	p-4 m-3 py-6 rounded-md">
           <img class="mx-auto w-11" src="../assets/profit.svg" alt="" />
           <div>
             <p class="py-4 font-extrabold text-lg	">Daily Profit</p>
@@ -55,7 +55,7 @@
           </div>
         </div>
 
-        <div class="shadow-xl w-1/6	p-4 m-3 py-6 rounded-md">
+        <div class="shadow-xl lg:w-1/6	p-4 m-3 py-6 rounded-md">
           <img class="mx-auto w-12" src="../assets/withdrawal.svg" alt="" />
           <div>
             <p class="py-4 font-extrabold text-lg	">Fast Withdrawal</p>
@@ -65,7 +65,7 @@
           </div>
         </div>
 
-        <div class="shadow-xl w-1/6	p-4 m-3 py-6 rounded-md">
+        <div class="shadow-xl lg:w-1/6	p-4 m-3 py-6 rounded-md">
           <img class="mx-auto w-11" src="../assets/support.svg" alt="" />
           <div>
             <p class="py-4 font-extrabold text-lg	">24/7 Support</p>
@@ -79,20 +79,20 @@
     </div>
 
     <div>
-      <div class="text-left mt-20 mb-5 ml-44">
+      <div class="lg:text-left text-center mt-20 mb-5 lg:ml-44">
         <p class="h-1 bg-l-blue w-20 ml-5 rounded-lg"></p>
         <h1
-          class="text-2xl font-extrabold -mt-5 bg-white w-60 pl-3 ml-9 tl-blue"
+          class="text-2xl font-extrabold -mt-5 bg-white lg:w-60 lg:pl-3 lg:ml-9 tl-blue"
         >
           ABOUT <span class="td-blue">US</span>
         </h1>
       </div>
     </div>
 
-    <div class="flex justify-center">
-      <div class="w-5/12">
+    <div class="lg:flex justify-center">
+      <div class="lg:w-5/12">
         <div>
-          <p class="pl-7 pr-32 font-normal text-sm leading-6">
+          <p class="lg:pl-7 p-3 lg:pr-32 font-normal text-sm leading-6">
             We are a team of early bitcoin adoptors and trading experts who have
             introduced the power of leveraged income to millennials using A.I
             tools in cryptocurrency trading and tech to over 500,000 people. Our
@@ -106,8 +106,8 @@
           </p>
         </div>
       </div>
-      <div>
-        <img class="w-11/12	" src="../assets/about.svg" alt="" />
+      <div class="lg:m-0 m-8">
+        <img class="lg:w-11/1" src="../assets/about.svg" alt="" />
       </div>
     </div>
 
@@ -115,15 +115,15 @@
       <div class="text-center m-14 mt-32">
         <p class="h-1 bg-l-blue mx-auto w-4/12 rounded-lg"></p>
         <h1
-          class="text-2xl font-extrabold -mt-5 bg-white w-80 mx-auto td-blue"
+          class="text-2xl font-extrabold -mt-5 bg-white lg:w-80 mx-auto td-blue"
         >
           INVESTMENT <span class="tl-blue">PLANS</span>
         </h1>
       </div>
 
-      <div class="flex justify-center text-center">
+      <div class="lg:flex justify-center text-center">
         <div
-          class="shadow-xl w-1/6	p-4 m-3 py-6 rounded-md border-t-8 border-blue"
+          class="shadow-xl lg:w-1/6	p-4 m-3 py-6 rounded-md border-t-8 border-blue"
         >
           <div>
             <p class="font-extrabold text-lg	">BASIC</p>
@@ -143,7 +143,7 @@
         </div>
 
         <div
-          class="shadow-xl w-1/6	p-4 m-3 py-6 rounded-md border-t-8 border-blue"
+          class="shadow-xl lg:w-1/6	p-4 m-3 py-6 rounded-md border-t-8 border-blue"
         >
           <div>
             <p class="font-extrabold text-lg	">ADVANCED</p>
@@ -163,7 +163,7 @@
         </div>
 
         <div
-          class="shadow-xl w-1/6	p-4 m-3 py-6 rounded-md border-t-8 border-blue"
+          class="shadow-xl lg:w-1/6	p-4 m-3 py-6 rounded-md border-t-8 border-blue"
         >
           <div>
             <p class="font-extrabold text-lg	">PRO</p>
@@ -183,7 +183,7 @@
         </div>
 
         <div
-          class="shadow-xl w-1/6	p-4 m-3 py-6 rounded-md border-t-8 border-blue"
+          class="shadow-xl lg:w-1/6	p-4 m-3 py-6 rounded-md border-t-8 border-blue"
         >
           <div>
             <p class="font-extrabold text-lg	">CAPITALIST</p>
@@ -205,10 +205,10 @@
     </div>
 
     <div>
-      <div class="text-center m-28 mb-6">
+      <div class="text-center lg:m-20 my-16">
         <p class="h-1 bg-blue-300 mx-auto w-4/12 rounded-lg"></p>
         <h1
-          class="text-2xl font-extrabold -mt-5 bg-white w-80 mx-auto tl-blue"
+          class="text-2xl font-extrabold -mt-5 bg-white lg:w-80 mx-auto tl-blue"
         >
           PAYMENT <span class="td-blue">METHODS</span>
         </h1>
@@ -225,21 +225,21 @@
     </div>
 
     <div>
-      <div class="text-center m-20 mb-6">
+      <div class="text-center lg:m-20 my-16">
         <p class="h-1 bg-blue-300 mx-auto w-4/12 rounded-lg"></p>
         <h1
-          class="text-2xl font-extrabold -mt-5 bg-white w-80 mx-auto td-blue"
+          class="text-2xl font-extrabold -mt-5 bg-white lg:w-80 mx-auto td-blue"
         >
           INVESTMENT <span class="tl-blue">PROCESS</span>
         </h1>
       </div>
 
-      <div class="flex justify-center">
-        <div class="flex justify-center">
-          <div class=" w-60 p-8 rounded-md ">
+      <div class="lg:flex justify-center">
+        <div class="lg:flex justify-center">
+          <div class="lg:w-60 w-full mx-auto p-8 rounded-md ">
             <div class="flex">
               <p
-                class="bg-l-blue p-2 text-white text-sm h-8 mt-6 rounded-md pl-6 pr-48"
+                class="bg-l-blue p-2 w-screen text-white text-sm h-8 mt-6 rounded-md pl-6 mx-auto pr-48"
               >
                 SIGN UP
               </p>
@@ -250,7 +250,7 @@
               </h1>
             </div>
 
-            <div class="text-right">
+            <div class="text-right lg:pr-0 pr-8">
               <p class="font-extrabold text-sm td-blue pl-8">
                 Signup with a valid Email.
               </p>
@@ -261,10 +261,10 @@
             </div>
           </div>
 
-          <div class=" w-60 p-8 rounded-md ">
+          <div class="lg:w-60 w-full mx-auto p-8 rounded-md ">
             <div class="flex">
               <p
-                class="bg-l-blue p-2 text-white text-sm h-8 mt-6 rounded-md pl-6 pr-44"
+                class="bg-l-blue p-2 w-screen text-white text-sm h-8 mt-6 rounded-md pl-6 pr-44"
               >
                 DEPOSIT FUNDS
               </p>
@@ -275,7 +275,7 @@
               </h1>
             </div>
 
-            <div class="text-right">
+            <div class="text-right lg:pr-0 pr-8">
               <p class="font-extrabold text-sm td-blue pl-8">
                 Deposit Fund in your Wallet
               </p>
@@ -286,10 +286,10 @@
             </div>
           </div>
 
-          <div class=" w-60 p-8 rounded-md ">
+          <div class="lg:w-60 w-full mx-auto p-8 rounded-md ">
             <div class="flex">
               <p
-                class="bg-l-blue p-2 text-white text-sm h-8 mt-6 rounded-md pl-6 pr-44"
+                class="bg-l-blue p-2 w-screen text-white text-sm h-8 mt-6 rounded-md pl-6 pr-44"
               >
                 INVEST
               </p>
@@ -300,7 +300,7 @@
               </h1>
             </div>
 
-            <div class="text-right">
+            <div class="text-right lg:pr-0 pr-8">
               <p class="font-extrabold text-sm td-blue pl-8">
                 Pick and Join an Investment Plan.
               </p>
@@ -311,21 +311,22 @@
             </div>
           </div>
 
-          <div class=" w-60 p-8 rounded-md ">
+          <div class="lg:w-60 lg:mb mb-12 w-full mx-auto p-8 rounded-md ">
+        
             <div class="flex">
               <p
-                class="bg-l-blue p-2 text-white text-sm h-8 mt-6 rounded-md pl-6 pr-28"
+                class="bg-l-blue p-2 w-screen text-white text-sm h-8 mt-6 rounded-md pl-6 lg:pr-28 pr-44"
               >
                 WITHDRAW FUNDS
               </p>
               <h1
-                class="p-4 border-4 w-20 relative ml-auto mb-12 right-24 border-blue rounded-full text-white text-3xl font-extrabold bg-blue-300"
+                class="p-4 border-4 w-20 relative lg:ml-auto -ml-14 mb-12 right-24 border-blue rounded-full text-white text-3xl font-extrabold bg-blue-300"
               >
                 04.
               </h1>
             </div>
 
-            <div class="text-right">
+            <div class="text-right lg:pr-0 pr-8">
               <p class="font-extrabold text-sm td-blue pl-8">
                 Withdraw Your funds and profit.
               </p>
@@ -341,17 +342,17 @@
 
     <div>
       <div>
-        <div class="text-center m-20 mb-6">
+        <div class="text-center lg:m-20 mb-6">
           <p class="h-1 bg-blue-300 mx-auto w-5/12 rounded-lg"></p>
           <h1
-            class="text-2xl font-extrabold -mt-5 bg-white w-4/12 mx-auto text-blue-500"
+            class="text-2xl font-extrabold -mt-5 bg-white lg:w-4/12 mx-auto text-blue-500"
           >
             REVIEWS <span class="text-blue-900">FROM OUR INVESTORS</span>
           </h1>
 
-          <div class="flex justify-center mt-28">
+          <div class="lg:flex justify-center mt-28">
             <div
-              class="bg-d-blue m-3 text-white text-center text-sm w-1/5 p-5 rounded-md "
+              class="bg-d-blue lg:mb-0 mb-20 lg:m-3 text-white text-center text-sm lg:w-1/5 p-5 rounded-md "
             >
               <div class="bg-white -mt-20 w-32 mx-auto rounded-full h-32 pt-2">
                 <img
@@ -370,7 +371,7 @@
             </div>
 
             <div
-              class="bg-d-blue m-3 text-white text-center text-sm w-1/5 p-5 rounded-md "
+              class="bg-d-blue lg:mb-0 mb-20 lg:m-3 text-white text-center text-sm lg:w-1/5 p-5 rounded-md "
             >
               <div class="bg-white -mt-20 w-32 mx-auto rounded-full h-32 pt-2">
                 <img
@@ -389,7 +390,7 @@
             </div>
 
             <div
-              class="bg-d-blue m-3 text-white text-center text-sm w-1/5 p-5 rounded-md "
+              class="bg-d-blue lg:mb-0 mb-20 lg:m-3 text-white text-center text-sm lg:w-1/5 p-5 rounded-md "
             >
               <div class="bg-white -mt-20 w-32 mx-auto rounded-full h-32 pt-2">
                 <img
@@ -406,6 +407,7 @@
               </p>
               <p class="tl-blue p-3 text-xs">Lu W. </p>
             </div>
+
           </div>
         </div>
       </div>
@@ -424,7 +426,8 @@ export default {};
   width: 100%;
 }
 .over {
-  top: 73px;
+  /* top: 73px; */
+
   bottom: 0px;
 }
 </style>

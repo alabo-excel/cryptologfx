@@ -1,19 +1,19 @@
  <template>
   <div class="">
     <div class="bg-d-blue mt-16 flex justify-center p-8 pb-6 text-white">
-      <div class="flex">
-        <div class="flex w-5/12 m-6">
+      <div class="lg:flex">
+        <div class="flex w-5/12 lg:m-6 m-4">
           <img class="w-34 h-6 mr-1" src="../assets/footer1.png" alt="" />
           <img class="w-8 h-6" src="../assets/footer2.png" alt="" />
         </div>
         <div class="text-sm w-4/12 m-4">
           <p class="tl-blue">Links</p>
           <div class="pt-6">
-            <p class="text-white py-2">About Us</p>
+            <p class="text-white lg:py-2">About Us</p>
           </div>
         </div>
 
-        <div class="text-sm w-5/12 m-4">
+        <div class="text-sm lg:w-5/12 m-4">
           <p class="tl-blue">Site Maps</p>
           <div class="pt-6">
             <p class="text-white py-2">Investment Benefits</p>
@@ -24,7 +24,7 @@
           </div>
         </div>
 
-        <div class="text-sm w-5/12 m-4">
+        <div class="text-sm lg:w-5/12 m-4">
           <p class="tl-blue">Contact Us</p>
           <div class="pt-6">
             <p class="text-white py-2">
@@ -35,9 +35,9 @@
           </div>
         </div>
 
-        <div class="text-xs w-5/12 m-4">
+        <div class="text-xs lg:w-5/12 m-4">
           <p class="tl-blue">Stay in touch</p>
-          <div class="pt-6">
+          <div class="pt-6 flex lg:block">
             <input type="text" placeholder="Enter E-mail..." class="opacity-20 text-black p-3 my-2 rounded-md px-4">
             <input type="button" value="SUBSCRIBE" class="p-3 my-2 rounded-md px-4 bg-l-blue text-white">
           </div>
