@@ -17,7 +17,7 @@
         <p class="pl-2">Dashboard</p>
       </div>
       </router-link>
-      <router-link to="/account">
+      <router-link to="/dashboard">
       <div class="flex p-4 text-white">
         <img class="w-5" src="../assets/Vector-account.svg" alt="" />
         <p class="pl-2">Account</p>
@@ -35,7 +35,7 @@
         <p class="pl-2">Transaction (ROI) log</p>
       </div>
       </router-link>
-      <router-link to="/deposits">
+      <router-link to="/deposit">
       <div class="flex p-4 text-white">
         <img class="w-5" src="../assets/Vector-1.svg" alt="" />
         <p class="pl-2">Deposits</p>

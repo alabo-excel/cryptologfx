@@ -50,6 +50,18 @@ const routes = [{
         name: 'Support',
         component: () =>
             import ('../views/support.vue')
+    },
+    {
+        path: '/withdrawals',
+        name: 'Withdrawals',
+        component: () =>
+            import ('../views/withdrawals.vue')
+    },
+    {
+        path: '/deposit',
+        name: 'Deposit',
+        component: () =>
+            import ('../views/deposit.vue')
     }
 ]
 

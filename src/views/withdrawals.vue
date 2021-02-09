@@ -2,8 +2,8 @@
   <div class="dashboard">
     <Sidebar class="h-screen fixed" />
     <div class="ml-56">
-      <DashboardNav toggle="toggle" class="w-full" />
-      <Dashboard class="w-12/12" />
+      <DashboardNav class="w-full" />
+      <Withdrawals class="w-12/12" />
       <LastFooter class="fixed bottom-0 w-screen" />
     </div>
   </div>
@@ -13,20 +13,15 @@
 import DashboardNav from "../components/dashboard-nav";
 import Sidebar from "../components/sidebar";
 import LastFooter from "@/components/last-footer.vue";
-import Dashboard from "@/components/dashboard-main.vue";
+import Withdrawals from "@/components/withdrawals-main.vue";
 
 export default {
   components: {
     DashboardNav,
     Sidebar,
     LastFooter,
-    Dashboard
-  },
-  methods: {
-    toggle(){
-      console.log('hello')
-    }
-  },
+    Withdrawals
+  }
 };
 </script>
 <style scoped>
