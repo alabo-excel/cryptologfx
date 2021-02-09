@@ -32,6 +32,24 @@ const routes = [{
         name: 'Dashboard',
         component: () =>
             import ('../views/dashboard.vue')
+    },
+    {
+        path: '/notification',
+        name: 'Notification',
+        component: () =>
+            import ('../views/notification.vue')
+    },
+    {
+        path: '/referals',
+        name: 'Referals',
+        component: () =>
+            import ('../views/referals.vue')
+    },
+    {
+        path: '/support',
+        name: 'Support',
+        component: () =>
+            import ('../views/support.vue')
     }
 ]
 

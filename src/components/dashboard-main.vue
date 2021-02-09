@@ -39,7 +39,7 @@
 
     <div class="flex mt-6">
       <div
-        class="bg-white p-6 pr-4 rounded-md flex justify-between lg:mr-3 w-6/12"
+        class="bg-white p-6 pr-4 rounded-md flex justify-between lg:mr-5 w-6/12"
       >
         <div>
           <div class="tl-blue pb-3 text-sm">
@@ -66,7 +66,7 @@
       </div>
 
       <div
-        class="bg-white p-6 pr-4 rounded-md flex justify-between lg:mr-3 w-6/12"
+        class="bg-white p-6 pr-4 rounded-md flex justify-between lg:mr-5 w-6/12"
       >
         <div>
           <div class="tl-blue pb-3 text-sm">
@@ -93,7 +93,7 @@
       </div>
 
       <div
-        class="bg-white p-6 pr-4 rounded-md flex justify-between lg:mr-3 w-6/12"
+        class="bg-white p-6 pr-4 rounded-md flex justify-between lg:-mr-1 w-6/12"
       >
         <div>
           <div class="tl-blue pb-3 text-sm">
@@ -102,13 +102,13 @@
           <div class="pb-5 text-xl">
             <span>$307.53</span>
           </div>
-          <div class="flex text-green-500 text-xs">
+          <div class="flex text-red-500 text-xs">
             <img
               class="h-3 w-1 my-auto mr-3"
-              src="../assets/UpArrow.png"
+              src="../assets/DownArrow.png"
               alt=""
             />
-            <p>23.5%</p>
+            <p>3.5  %</p>
           </div>
         </div>
         <div class="">
@@ -120,8 +120,12 @@
       </div>
     </div>
 
-    <div class="tl-blue bg-white rounded-md my-4 p-2 text-center">
+    <div class="tl-blue bg-white rounded-md my-4 p-2 text-sm text-center">
       <p>// CoinGecko Top 20 Crypto Ticker and Changes Scroll Widget Here</p>
+    </div>
+
+    <div class="mb-16">
+      <img class="rounded-md" src="../assets/Dashboard-Interface.png" alt="">
     </div>
   </div>
 </template>
