@@ -2,7 +2,7 @@
   <div class="dashboard">
     <Sidebar class="h-screen fixed" />
     <div class="ml-56">
-      <DashboardNav toggle="toggle" class="w-full" />
+      <DashboardNav class="w-full" />
       <Dashboard class="w-12/12" />
       <LastFooter class="fixed bottom-0 w-screen" />
     </div>
@@ -21,11 +21,6 @@ export default {
     Sidebar,
     LastFooter,
     Dashboard
-  },
-  methods: {
-    toggle(){
-      console.log('hello')
-    }
   },
 };
 </script>

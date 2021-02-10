@@ -1,7 +1,7 @@
 <template>
   <div class="nav flex justify-between h-16 bg-white">
     <div class="flex p-4">
-      <img @click="toggle" class="w-6 h-4 my-auto mx-5" src="../assets/ham.png" alt="" />
+      <img class="w-6 h-4 my-auto mx-5" src="../assets/ham.png" alt="" />
       <input
         class="border-2 border-blue-300 pl-12 bg-blue-100 rounded-full"
         type="text"
@@ -28,12 +28,6 @@
 <script>
 export default {
   name: "HelloWorld",
-
-  methods: {
-    toggle(props){
-      console.log(props)
-    }
-  },
 };
 </script>
 
