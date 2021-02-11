@@ -1,10 +1,10 @@
 <template>
   <div class="dashboard">
-    <Sidebar class="h-screen fixed" />
-    <div class="ml-56">
-      <DashboardNav class="w-full" />
+    <!-- <Sidebar class="h-screen fixed" /> -->
+    <div class="">
+      <DashboardNav />
       <Dashboard class="w-12/12" />
-      <LastFooter class="fixed bottom-0 w-screen" />
+      <LastFooter class="w-screen" />
     </div>
   </div>
 </template>
@@ -27,5 +27,6 @@ export default {
 <style scoped>
 .dashboard {
   background-color: #f1f1f1;
+  overflow-x: hidden;
 }
 </style>

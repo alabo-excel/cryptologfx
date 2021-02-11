@@ -1,10 +1,10 @@
 <template>
-  <div class="hello p-9 px-20">
+  <div class="hello lg:p-9 p-4 lg:px-20">
     <div class="pb-8">
       <h1>OVERVIEW</h1>
     </div>
-    <div class="flex">
-      <div class="bg-white p-6 rounded-md flex justify-between lg:mr-3 w-6/12">
+    <div class="lg:flex">
+      <div class="bg-white my-4 lg:m-0 p-6 rounded-md flex justify-between lg:mr-3 lg:w-6/12">
         <div>
           <div class="tl-blue pb-3 text-sm">
             <span>WALLET BALANCE</span>
@@ -20,7 +20,7 @@
         </div>
       </div>
 
-      <div class="bg-white p-6 rounded-md flex justify-between w-6/12 lg:ml-3">
+      <div class="bg-white my-4 lg:m-0 p-6 rounded-md flex justify-between lg:w-6/12 lg:ml-3">
         <div>
           <div class="tl-blue pb-3 text-sm">
             <span>CURRENT INVESTMENT PLAN</span>
