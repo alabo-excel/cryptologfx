@@ -3,8 +3,8 @@
     <!-- <Sidebar class="h-screen fixed" /> -->
     <div class="">
       <DashboardNav />
-      <Dashboard class="w-12/12" />
-      <LastFooter class="w-screen" />
+      <Dashboard class="ml-56 main" />
+      <LastFooter class="w-full" />
     </div>
   </div>
 </template>
@@ -27,6 +27,10 @@ export default {
 <style scoped>
 .dashboard {
   background-color: #f1f1f1;
-  overflow-x: hidden;
+}
+@media (max-width: 700px) {
+  .main{
+    margin-left:0px;
+  }
 }
 </style>

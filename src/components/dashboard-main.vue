@@ -37,9 +37,9 @@
       </div>
     </div>
 
-    <div class="flex mt-6">
+    <div class="lg:flex mt-6">
       <div
-        class="bg-white p-6 pr-4 rounded-md flex justify-between lg:mr-5 w-6/12"
+        class="bg-white p-6 pr-4 rounded-md my-4 lg:m-0 flex justify-between lg:mr-5 lg:w-6/12"
       >
         <div>
           <div class="tl-blue pb-3 text-sm">
@@ -66,7 +66,7 @@
       </div>
 
       <div
-        class="bg-white p-6 pr-4 rounded-md flex justify-between lg:mr-5 w-6/12"
+        class="bg-white p-6 pr-4 rounded-md flex justify-between lg:mr-5 my-4 lg:m-0 lg:w-6/12"
       >
         <div>
           <div class="tl-blue pb-3 text-sm">
@@ -93,7 +93,7 @@
       </div>
 
       <div
-        class="bg-white p-6 pr-4 rounded-md flex justify-between lg:-mr-1 w-6/12"
+        class="bg-white p-6 pr-4 my-4 lg:m-0 rounded-md flex justify-between lg:-mr-1 lg:w-6/12"
       >
         <div>
           <div class="tl-blue pb-3 text-sm">

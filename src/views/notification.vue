@@ -1,10 +1,10 @@
 <template>
   <div class="notif">
-    <Sidebar class="h-screen fixed" />
-    <div class="ml-56">
-      <DashboardNav class="w-full" />
-      <Notification class="w-12/12" />
-      <LastFooter class="fixed bottom-0 w-screen" />
+    <!-- <Sidebar class="h-screen fixed" /> -->
+    <div class="">
+      <DashboardNav />
+      <Notification class="ml-56 main" />
+      <LastFooter class="w-full" />
     </div>
   </div>
 </template>
@@ -27,5 +27,10 @@ export default {
 <style scoped>
 .notif {
   background-color: #f1f1f1;
+}
+@media (max-width: 700px) {
+  .main{
+    margin-left:0px;
+  }
 }
 </style>

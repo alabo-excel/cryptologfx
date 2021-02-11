@@ -25,9 +25,15 @@
           <p v-else class="pl-5"><</p>
         </div>
         <ul v-if="accountMore === true" class="pl-8 text-white">
-          <li class="p-3">Edit Profile</li>
-          <li class="p-3">Change Password</li>
-          <li class="p-3">withdrawal Info</li>
+          <router-link to="/editprofile">
+            <li class="p-3">Edit Profile</li>
+          </router-link>
+          <router-link to="/changepassword">
+            <li class="p-3">Change Password</li>
+          </router-link>
+          <router-link to="withdrawalinfo">
+            <li class="p-3">Withdrawal Info</li>
+          </router-link>
         </ul>
         <div v-else></div>
       </router-link>

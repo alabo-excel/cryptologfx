@@ -1,10 +1,10 @@
 <template>
   <div class="hello">
-    <div class="hello p-9 px-20">
+    <div class="hello lg:p-9 p-3 lg:px-20">
       <div class="pb-8">
         <h1>MESSAGES</h1>
       </div>
-      <div>
+      <div class="">
         <div class="flex justify-between bg-l-blue p-2 rounded-t-md text-white text-sm">
           <div class="flex">
             <input class="h-4 w-4 mx-6" type="checkbox" />
@@ -18,7 +18,7 @@
         <div v-for="(noti, index) in notifs" :key="index" class="flex justify-between  mb-0.5 p-2 py-3 bg-white text-sm">
           <div class="flex">
             <input class="h-4 w-4 mx-6" type="radio" />
-            <p>{{noti.msg}}</p>
+            <p class="w-32 lg:w-auto">{{noti.msg}}</p>
           </div>
           <div>
             <p>22-07-2020</p>

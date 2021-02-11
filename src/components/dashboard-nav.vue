@@ -1,36 +1,36 @@
 <template>
   <div>
     <Sidebar id="bar" class="h-screen fixed" />
-    <div id="nav" class="nav ml-56 flex justify-between h-16 bg-white">
+    <div id="nav" class="nav ml-56 flex  justify-between h-16 bg-white">
       <div class="flex p-4">
         <img
           @click="toggleBar"
-          class="w-6 h-4 my-auto mx-5"
+          class="w-6 h-4 my-auto mr-1 lg:mx-5"
           src="../assets/ham.png"
           alt=""
         />
         <input
-          class="border-2 border-blue-300 pl-12 bg-blue-100 rounded-full"
+          class="border-2 w-40 border-blue-300 lg:w-auto lg:pl-12 pl-6 bg-blue-100 rounded-full"
           type="text"
           placeholder="Search transactions"
         />
       </div>
-      <div class="flex divide-x mx-7 divide-blue-800 my-5">
+      <div class="flex lg:divide-x lg:mx-7 divide-blue-800 my-5">
         <div class="flex ">
           <img
-            class="w-8 h-6 mx-5 my-auto"
+            class="lg:w-8 lg:h-6 w-6 h-4 lg:mx-5 mx-3 my-auto"
             src="../assets/Support Iocn.svg"
             alt=""
           />
           <img
-            class="w-8 h-6 my-auto mr-5"
+            class="lg:w-8 lg:h-6 w-6 h-4 my-auto mr-5"
             src="../assets/Notification Icon.svg"
             alt=""
           />
         </div>
         <div class="flex">
-          <p class="my-auto ml-5">John Doe</p>
-          <img class="w-8 h-8 mx-5 my-auto" src="../assets/avatar.svg" />
+          <p class="my-auto lg:ml-5 text-xs lg:text-sm">John Doe</p>
+          <img class="lg:w-8 lg:h-8 w-6 h-6 mr-1 lg:mx-5 my-auto" src="../assets/avatar.svg" />
         </div>
       </div>
     </div>
@@ -61,7 +61,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-@media (max-width: 640px) {
+@media (max-width: 700px) {
   #bar{
     display: none;
   }

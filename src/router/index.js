@@ -62,7 +62,25 @@ const routes = [{
         name: 'Deposit',
         component: () =>
             import ('../views/deposit.vue')
-    }
+    },
+    {
+        path: '/editprofile',
+        name: 'EditProfile',
+        component: () =>
+            import ('../views/editProfile.vue')
+    },
+    {
+        path: '/changepassword',
+        name: 'ChangePassword',
+        component: () =>
+            import ('../views/changePassword.vue')
+    },
+    {
+        path: '/withdrawalinfo',
+        name: 'WithdrawalInfo',
+        component: () =>
+            import ('../views/withdrawalInfo.vue')
+    },
 ]
 
 const router = new VueRouter({

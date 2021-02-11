@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-    <div class="hello p-9 px-20">
+    <div class="hello lg:p-9 p-4 lg:px-20">
       <div class="pb-8 flex justify-between">
         <h1
           @click="showModal"
@@ -10,7 +10,7 @@
         </h1>
       </div>
 
-      <div>
+      <div class="">
         <div
           class="flex justify-between bg-l-blue p-2 px-12 rounded-t-md text-white text-sm"
         >
@@ -70,7 +70,7 @@
       class="modal h-screen w-full fixed left-0 top-0 flex justify-center bg-black bg-opacity-50 hidden"
     >
       <!-- modal -->
-      <div class="bg-white p-4 rounded shadow-lg w-5/12 h-64 mt-20">
+      <div class="bg-white p-4 rounded shadow-lg lg:w-5/12 h-64 mt-20">
         <!-- modal header -->
         <div class="px-4 py-2 flex justify-between items-center">
           <p class="font-extrabold text-lg mx-auto p-3">
