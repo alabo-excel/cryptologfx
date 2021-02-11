@@ -1,10 +1,10 @@
 <template>
   <div class="referals">
-    <Sidebar class="h-screen fixed" />
-    <div class="ml-56">
+    <!-- <Sidebar class="h-screen fixed" /> -->
+    <div class="">
       <DashboardNav class="w-full" />
-      <Referals class="w-12/12" />
-      <LastFooter class="fixed bottom-0 w-screen" />
+      <Referals class="main ml-56" />
+      <LastFooter class="w-full" />
     </div>
   </div>
 </template>
@@ -27,5 +27,10 @@ export default {
 <style scoped>
 .referals {
   background-color: #f1f1f1;
+}
+@media (max-width: 700px) {
+  .main{
+    margin-left:0px;
+  }
 }
 </style>

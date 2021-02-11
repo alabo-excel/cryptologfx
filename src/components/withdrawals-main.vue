@@ -1,14 +1,14 @@
 <template>
   <div class="hello">
-    <div class="hello p-9 px-20">
-      <div class="pb-8 flex justify-between">
+    <div class="hello lg:p-9 p-4 lg:px-20">
+      <div class="pb-8 lg:flex justify-between">
         <h1
           @click="showModal"
           class="pt-3 show-modal text-xs w-44 text-center bg-l-blue rounded-md text-white h-10"
         >
           Request Withdrawal
         </h1>
-        <div class="bg-white w-4/12 text-center text-sm p-4 mb-5">
+        <div class="bg-white mt-2 lg:w-4/12 text-center text-sm p-4 mb-5">
           <div class="flex justify-between p-2">
             <span>Minimum amount:</span>
             <span>$20</span>
@@ -28,26 +28,26 @@
         </div>
       </div>
 
-      <div>
+      <div class="overflow-x-auto">
         <div
-          class="flex justify-between bg-l-blue p-2 px-12 rounded-t-md text-white text-sm"
+          class="flex diff justify-between bg-l-blue p-2 px-12 rounded-t-md text-white text-sm"
         >
           <div class="flex">
             <p>ID</p>
           </div>
-          <div class="">
+          <div class="px-3">
             <p>Amount Requested</p>
           </div>
-          <div>
+          <div class="px-3">
             <p>Amount + charges</p>
           </div>
-          <div>
+          <div class="px-3">
             <p>Receiving mode</p>
           </div>
-          <div>
+          <div class="px-3">
             <p>Status</p>
           </div>
-          <div>
+          <div class="px-3">
             <p>Date Created</p>
           </div>
         </div>
@@ -55,24 +55,24 @@
         <div
           v-for="(noti, index) in notifs"
           :key="index"
-          class="flex justify-between text-xs mb-0.5 p-2 py-3 bg-white px-12"
+          class="flex diff justify-between text-xs mb-0.5 p-2 py-3 bg-white px-12"
         >
           <div>
             <p>{{ noti.id }}</p>
           </div>
-          <div class="">
+          <div class="px-3">
             <p>1,500.00</p>
           </div>
-          <div class="">
+          <div class="px-3">
             <p>1,600.00</p>
           </div>
-          <div class="">
+          <div class="px-3">
             <p>Bitcoin</p>
           </div>
-          <div class="">
+          <div class="px-3">
             <p>Processed</p>
           </div>
-          <div>
+          <div class="px-3">
             <p>22-07-2020</p>
           </div>
         </div>
@@ -88,7 +88,7 @@
       class="modal h-screen w-full fixed left-0 top-0 flex justify-center bg-black bg-opacity-50 hidden"
     >
       <!-- modal -->
-      <div class="bg-white p-4 rounded shadow-lg w-5/12 h-80 mt-20">
+      <div class="bg-white p-4 rounded shadow-lg lg:w-5/12 lg:h-80 h-96 mt-20">
         <!-- modal header -->
         <div class="px-4 py-2 flex justify-between items-center">
           <p class="font-extrabold text-lg mx-auto p-3">
@@ -195,4 +195,9 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+@media (max-width: 400px) {
+  .diff{
+    width: 150%;
+  }
+}
 </style>

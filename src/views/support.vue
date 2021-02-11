@@ -1,10 +1,10 @@
 <template>
   <div class="support">
-    <Sidebar class="h-screen fixed" />
-    <div class="ml-56">
+    <!-- <Sidebar class="h-screen fixed" /> -->
+    <div class="">
       <DashboardNav class="w-full" />
-      <Support class="w-12/12" />
-      <LastFooter class="bottom-0 w-full" />
+      <Support class="ml-52 main" />
+      <LastFooter class="w-full" />
     </div>
   </div>
 </template>
@@ -27,5 +27,10 @@ export default {
 <style scoped>
 .support {
   background-color: #f1f1f1;
+}
+@media (max-width: 700px) {
+  .main{
+    margin-left:0px;
+  }
 }
 </style>

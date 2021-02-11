@@ -1,10 +1,10 @@
 <template>
   <div class="dashboard">
-    <Sidebar class="h-screen fixed" />
-    <div class="ml-56">
+    <!-- <Sidebar class="h-screen fixed" /> -->
+    <div>
       <DashboardNav class="w-full" />
-      <Withdrawals class="w-12/12" />
-      <LastFooter class="fixed bottom-0 w-screen" />
+      <Withdrawals class="ml-56 main" />
+      <LastFooter class="w-full" />
     </div>
   </div>
 </template>
@@ -27,5 +27,10 @@ export default {
 <style scoped>
 .dashboard {
   background-color: #f1f1f1;
+}
+@media (max-width: 700px) {
+  .main{
+    margin-left:0px;
+  }
 }
 </style>

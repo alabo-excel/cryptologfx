@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-    <div class="hello p-9 px-20">
+    <div class="hello lg:p-9 p-4` lg:px-20">
       <div class="pb-8 flex justify-between">
         <h1
           @click="showModal"
@@ -18,13 +18,13 @@
 
       <div>
         <div
-          class="flex justify-between bg-l-blue p-2 px-12 rounded-t-md text-white text-sm"
+          class="flex justify-between bg-l-blue p-2 lg:px-12 rounded-t-md text-white text-sm"
         >
           <div class="flex">
-            <p>Tickets</p>
+            <p class="my-auto">Tickets</p>
             <input class="h-5 w-4 ml-6 my-auto" type="checkbox" />
           </div>
-          <div class="pl-72">
+          <div class="lg:pl-72 pl-40">
             <p>Status</p>
           </div>
           <div>
@@ -37,14 +37,14 @@
           :key="index"
           class="flex justify-between text-xs mb-0.5 p-2 py-3 bg-white px-12"
         >
-          <div>
+          <div class="">
             <p>{{ noti.msg }}</p>
           </div>
-          <div class="text-left">
+          <div class="text-left px-4">
             <p>{{ noti.status }}</p>
           </div>
 
-          <div>
+          <div class="">
             <p>22-07-2020</p>
           </div>
         </div>
@@ -60,7 +60,7 @@
       class="modal h-screen w-full fixed left-0 top-0 flex justify-center bg-black bg-opacity-50 hidden"
     >
       <!-- modal -->
-      <div class="bg-white rounded shadow-lg w-5/12 h-96 mt-20">
+      <div class="bg-white rounded shadow-lg lg:w-5/12 h-96 mt-20">
         <!-- modal header -->
         <div class="px-4 py-2 flex justify-between items-center">
           <p class="font-extrabold text-lg mx-auto p-3">
