@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <!-- <MainNav /> -->
+    <MainNav />
     <MainHome />
     <FooterMain />
     <LastFooter />

@@ -1,6 +1,6 @@
 <template>
   <div class="login">
-    <!-- <MainNav /> -->
+    <MainNav />
     <MainSignup />
     <MainFooter />
     <LastFooter />

@@ -426,8 +426,7 @@ export default {};
   width: 100%;
 }
 .over {
-  /* top: 73px; */
-
+  top: 65px;
   bottom: 0px;
 }
 </style>
