@@ -1,7 +1,7 @@
 <template>
   <div class="nav shadow-lg p-3">
-    <div class="lg:flex pl-5 pr-5 text-center">
-      <div class="flex">
+    <div class="flex flex-wrap pl-5  pr-5 text-center">
+      <div class="flex w-full lg:w-auto">
         <div @click="toggleNav" class="p-2">
           <img src="../assets/ham.png" alt="" />
         </div>
@@ -12,10 +12,10 @@
         </div>
       </div>
 
-      <div id="link" class="ml-auto ">
+      <div id="link" class="ml-auto  ">
         <ul class="lg:flex">
           <router-link to="/">
-            <li class="p-2 border-b-2 border-blue ml-5 mr-5">HOME</li>
+            <li class="p-2 border-b-2 border-blue ml-5 mr-5 sm:inline-block">HOME</li>
           </router-link>
           <li class="p-2 ml-3 mr-3">ABOUT</li>
           <li class="p-2 ml-3 mr-3">CONTACT</li>
@@ -37,11 +37,6 @@
 
 <script>
 export default {
-  data: () => {
-    return {
-      ham: true
-    };
-  },
   methods: {
     toggleNav() {
       if ((document.getElementById("link").style.display = "none")) {

@@ -5,7 +5,7 @@
     </div>
     <div class="over top-0 absolute opacity-75 bg-d-blue w-full h-4/5"></div>
     <div class="absolute top-0">
-      <div class="lg:ml-32 pl-5">
+      <div class="lg:ml-32 pl-5 pt-44 lg:pt-0">
         <h1 class="lg:text-6xl text-3xl text-white font-black lg:mt-52 mt-20">
           Secured <span class="tl-blue">Investment</span> <br />
           Platform.
@@ -429,4 +429,9 @@ export default {};
   top: 65px;
   bottom: 0px;
 }
+/* @media (max-width: 650px) {
+  .over{
+    top: 37%;
+  }
+} */
 </style>
