@@ -118,4 +118,9 @@ export default {
 ul li {
   list-style-type: none;
 }
+@media (max-width: 650px) {
+  .hello{
+    width: 60%;
+  }
+}
 </style>

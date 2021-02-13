@@ -81,6 +81,12 @@ const routes = [{
         component: () =>
             import ('../views/withdrawalInfo.vue')
     },
+    {
+        path: '/transaction',
+        name: 'Transaction',
+        component: () =>
+            import ('../views/transaction.vue')
+    },
 ]
 
 const router = new VueRouter({
